@@ -422,7 +422,7 @@ img{
 
 .main-header .main-box{
 	position:relative;
-    background: rgba(47,46,50,.80);
+    /* background: rgba(47,46,50,.80); */
     padding: 0 50px;
 	left:0px;
 	top:0px;
@@ -437,6 +437,7 @@ img{
 
 .main-header .main-box .logo-box{
 	position:relative;
+	width:auto;
 	float:left;
 	left:0px;
 	z-index:10;
@@ -450,7 +451,7 @@ img{
 
 .main-header .main-box .logo-box .logo img{
 	display:inline-block;
-	max-width:100%;
+	width: auto;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -507,7 +508,7 @@ img{
 .main-menu .navigation > li > a{
 	position:relative;
 	display:block;
-	color:#ffffff;
+	color:black;
 	text-align:center;
 	line-height:25px;
 	letter-spacing:0px;
@@ -900,6 +901,11 @@ img{
 ***/
 
 .main-slider{
+	background-color: #ffffff;
+	background-image: url('../images/background/4.jpg'); /* Path to your background image */
+	background-size: cover; /* Adjust the background size as needed */
+	background-position: center center; /* Adjust the background position as needed */
+	background-repeat: no-repeat;
 	position:relative;	
 	z-index:10;
 }
@@ -920,7 +926,7 @@ img{
 .main-slider h2{	
 	font-size:60px;
 	line-height:70px;
-	color: #ffffff;
+	color: black;
 	font-weight:900;
 	letter-spacing: 1px;
 	text-transform:uppercase;
@@ -937,7 +943,7 @@ img{
 .main-slider p{
 	position:relative;
 	font-size:16px;
-	color:#777777;
+	/* color:rgba(240,240,240,1); */
 	font-weight:500;
 	line-height: 24px;
 }

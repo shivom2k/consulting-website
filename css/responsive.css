@@ -95,7 +95,7 @@
 	}
 
 	.main-header .main-box .logo-box{
-		width: 100%;
+		width: auto;
 		text-align: center;
 		background: none;
 	}
